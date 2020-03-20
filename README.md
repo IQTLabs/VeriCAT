@@ -1,5 +1,5 @@
 # VeriCAT
-This repo contains all of the resources associated with the VeriCAT project
+All of the resources generated during the VeriCAT project for quantifying and visualizing and trust in translation 
 
 ## Project overview
 Everyone uses machine translation (MT), but the output lacks information to accurately gauge accuracy. There are stark differences in translation quality between individual sentences, language pairs, domains, translation engines, and data sources (e.g. news versus forums). MT quality assessment is intrinsically valuable, and is also the bottleneck to improving MT systems. This repo contains links to a user interface for displaying quality estimation, a dataset for training a model on informal text, and will be updated with a state-of-the-art sentence-level quality prediction model. 
