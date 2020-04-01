@@ -12,7 +12,7 @@ Links: [UI prototype](https://ninalopatina.github.io/VeriCAT-UI/) and associated
 ## Data
 We generated English translations via the best performing model for Russian --> English, Facebook’s FairSEQ pre-trained model. Three translators labeled each translation with a direct assessment score (0–100) for each sentence pair, and we provided links to each source text. The mean score is 68, very low for a high resource language pair. We also preserved paragraphs and comment threads, so that these data could be used for document-level and dialogue quality estimation. 
 
-Links: the [dataset](http://www.statmt.org/wmt20/quality-estimation-task.html) and [blog post detailing data-set production](https://gab41.lab41.org/how-good-is-your-translation-our-novel-dataset-can-help-you-find-out-d25f6c50af59). 
+Links: the [shared task page linking the dataset](http://www.statmt.org/wmt20/quality-estimation-task.html) and [blog post detailing data-set production](https://gab41.lab41.org/how-good-is-your-translation-our-novel-dataset-can-help-you-find-out-d25f6c50af59). [Click here to download the dataset](https://www.quest.dcs.shef.ac.uk/wmt20_files_qe/ru-en.tar.gz). 
 
 ## Named Entity Recognition 
 Named entities are a source of translation errors that is both common and can be identified with high accuracy. Due to the richness of Russian noun declension, names are translated with inconsistent spelling, and, occasionally, words are translated to names and vice versa. We have attained an F1 score of .95 for the person tag in English (On CoNLL-2003, a classic NER set, and Emerging Entities, a novel challenging dataset), and .93 F1 for the Person tag in Russian, (combining factRuEval and the BSNLP shared task). 
